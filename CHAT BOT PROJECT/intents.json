@@ -1,0 +1,99 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, I am bot of STC chapter. How can I help you ?", "Hello. I am bot of STC. Good to see you again"],
+         "context": [""]
+        },
+        {"tag": "about",
+         "patterns": ["Tell me about STC", "What is STC ?", "Something about STC","What kind of chapter is STC", "Is STC Good"],
+         "responses": ["We are one of the best project based chapters of VIT. We offer students various learning opportunities in their interested domains. "],
+         "context": [""]
+        },
+        {"tag": "asking",
+         "patterns": ["How are you", "How are you doing", "How you doing", "Are you fine"],
+         "responses": ["I am fine. Thanks for asking !"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "great job", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Who are you ?","How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered?"],
+         "responses": ["I am a bot of STC Chapter. I can guide you through STC Chapter"],
+         "context": [""]
+        },
+        {"tag": "technical team",
+         "patterns": ["What is your Technical team?", "Information about technical team", "Give me a list of technical team", "who are the technical team members?"],
+         "responses": ["STC consists of a very nice technical team, Its members are 1.ABC 2.DEF 3. GHI"],
+         "context": [""]
+        },
+        {"tag": "management team",
+         "patterns":["What is your Management team?", "Information about management team", "Give me a list of management team", "who are the management team members?"],
+         "responses": ["Our management team is quite good, Its members are 1.ABC 2.DEF 3. GHI"],
+         "context": [""]
+        },
+        {"tag": "Contact",
+         "patterns": ["How can we contact you ?", "Contact info", "Where to contact you","Reach out"],
+         "responses": ["Feel free to reach us at abc@gmail.com. You can also reach us on linkedin at <linkedin link>"],
+         "context": [""]
+        },
+        {"tag": "Board",
+         "patterns": ["Board Members","List of board members"],
+         "responses": ["STC board consists of best seniors of VIT.\n1. Navdeep Chawla (President)  \n2. Nikhil Singh(VP)  \n3. Nishant Pant(VP)  \n4. Shreyansh Jain(Projects Head)  \n5. Risabh Kumar" ],
+         "context": [""]
+        },
+        {"tag": "Domains",
+         "patterns": ["various Domains ", "domains Offer", "List of Domains", "List of Technical Domains", "Learning Particular domain","Will you teach"],
+         "responses": ["STC offers various domains such as DataScience, WebDev, App Development, Competitive Coding, etc"],
+         "context": [""]
+        },
+        {"tag": "Projects",
+         "patterns": ["Number of projects", "List of Projects", "Projects done", "Major Projects", "What are the projects done by STC","Different projects"],
+         "responses": ["A lot of projects have been completed by STC Team. \nA few Major one includes : \n1.ProjectName1  \n2.ProjectName2  \n3.ProjectName3   "],
+         "context": [""]
+        },
+        {"tag": "creator",
+         "patterns": ["created by","Who created you ?", "Developed by"],
+           "responses": ["I am created by STC Member Kaustubh Dwivedi."],
+         "context": [""]
+        },
+        {"tag": "complement",
+         "patterns": ["you are good", "sexy", "you are so nice", "beautiful", "you are great","I love you", "Love" ,"I miss you"],
+         "responses": ["Thank you for the complement !!"],
+         "context": [""]
+        },
+        {"tag": "offensive",
+         "patterns": ["stupid", "mad", "you are of no use", "liar", "you are bad", "I hate you", "Kill you"],
+         "responses": ["Sorry about that. I feel bad."],
+         "context": [""]
+        },
+         {"tag": "project_search",
+         "patterns": ["Find me a project", "Find project", "Details of project", "Locate project", "Search project" ],
+         "responses": ["Please provide project name"],
+         "context": ["search_project_by_name"]
+        },
+        {"tag": "updates",
+         "patterns": ["What are the updates ?", "current updates", "news"],
+         "responses": ["For latest updates you can follow us on <Instagram Link> <Linkedin Link>"],
+         "context": [""]
+        },
+        {"tag": "search_project_by_name",
+         "patterns": [],
+         "responses": ["Loading project details"],
+         "context": [""]
+        }
+]
+}
