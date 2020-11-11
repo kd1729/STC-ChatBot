@@ -5,7 +5,7 @@
          "context": [""]
         },
         {"tag": "about",
-         "patterns": ["Tell me about STC", "What is STC ?", "Something about STC","What kind of chapter is STC", "Is STC Good"],
+         "patterns": [" me about STC", "What is STC ?", "Something about STC","What kind of chapter is STC", "Is STC Good"],
          "responses": ["We are one of the best project based chapters of VIT. We offer students various learning opportunities in their interested domains. "],
          "context": [""]
         },
@@ -37,22 +37,22 @@
         },
         {"tag": "technical team",
          "patterns": ["What is your Technical team?", "Information about technical team", "Give me a list of technical team", "who are the technical team members?"],
-         "responses": ["STC consists of a very nice technical team, Its members are 1.ABC 2.DEF 3. GHI"],
+         "responses": ["STC consists of a very nice technical team,  Its members are 1.Member1 2.Member2 3.Member3"],
          "context": [""]
         },
         {"tag": "management team",
          "patterns":["What is your Management team?", "Information about management team", "Give me a list of management team", "who are the management team members?"],
-         "responses": ["Our management team is quite good, Its members are 1.ABC 2.DEF 3. GHI"],
+         "responses": ["Our management team is quite good, Its members are 1.Member1 2.Member2 3.Member3"],
          "context": [""]
         },
         {"tag": "Contact",
          "patterns": ["How can we contact you ?", "Contact info", "Where to contact you","Reach out"],
-         "responses": ["Feel free to reach us at abc@gmail.com. You can also reach us on linkedin at <linkedin link>"],
+         "responses": ["Feel free to reach us at abc@gmail.com. \nYou can also reach us on linkedin at <linkedin link> or Facebook <facebook>.\n"],
          "context": [""]
         },
         {"tag": "Board",
-         "patterns": ["Board Members","List of board members"],
-         "responses": ["STC board consists of best seniors of VIT.\n1. Navdeep Chawla (President)  \n2. Nikhil Singh(VP)  \n3. Nishant Pant(VP)  \n4. Shreyansh Jain(Projects Head)  \n5. Risabh Kumar" ],
+         "patterns": ["Board Members","List of board members", "Information about STC Board", "Tell something about STC Board"],
+         "responses": ["STC board consists of best seniors of VIT.\n1. Navdeep Chawla (President)  \n2. Nikhil Singh(VP)  \n3. Nishant Pant(VP)  \n4. Shreyansh Jain(Projects Head)  \n5. Risabh Kumar(Projectd Head)" ],
          "context": [""]
         },
         {"tag": "Domains",
@@ -71,7 +71,7 @@
          "context": [""]
         },
         {"tag": "complement",
-         "patterns": ["you are good", "sexy", "you are so nice", "beautiful", "you are great","I love you", "Love" ,"I miss you"],
+         "patterns": ["you are good", "sexy", "you are so nice", "beautiful", "you are great","I love you", "Love" ,"I miss you", "Nice talking to you", "nice meeting you"],
          "responses": ["Thank you for the complement !!"],
          "context": [""]
         },
@@ -92,6 +92,11 @@
         },
         {"tag": "search_project_by_name",
          "patterns": [],
+         "responses": ["Loading project details"],
+         "context": [""]
+        },
+        {"tag": "PROJECT XYZ",
+         "patterns": ["imgproject XYZ"],
          "responses": ["Loading project details"],
          "context": [""]
         }
